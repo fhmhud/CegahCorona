@@ -1,6 +1,6 @@
 $(document).ready(function () {
    // Mengubah variabel menjadi data dari json
-   $.getJSON("https://data.covid19.go.id/public/api/update.json", function (data) {
+   $.getJSON("https://fhmhud.github.io/CegahCorona/core/manualapi.json", function (data) {
       $("#num-positif").html(angkakoma(data.update.total.jumlah_positif) + ' <span class="badge rounded-pill bg-light text-dark">' + angkakoma(data.update.penambahan.jumlah_positif) + '</span>');
       $("#num-sembuh").html(angkakoma(data.update.total.jumlah_sembuh) + ' <span class="badge rounded-pill bg-light text-dark">' + angkakoma(data.update.penambahan.jumlah_sembuh) + '</span>');
       $("#num-meninggal").html(angkakoma(data.update.total.jumlah_meninggal) + ' <span class="badge rounded-pill bg-light text-dark">' + angkakoma(data.update.penambahan.jumlah_meninggal) + '</span>');
