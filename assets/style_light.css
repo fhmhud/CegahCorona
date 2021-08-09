@@ -1,0 +1,68 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, p {
+    color:black;
+}
+
+.card-red, .card-red.p {
+    background-color: #f44336;
+}
+
+.card-blue, .card-blue.p {
+    background-color: #2196f3;
+}
+
+.card-yellow, .card-yellow.p {
+    background-color: #fdd835;
+}
+
+.card-green, .card-green.p {
+    background-color: #66bb6a;
+}
+
+.jumbo {
+    background-color: rgb(255, 238, 238);
+}
+
+.card {
+    max-width: 50vh;
+}
+/* Content */
+.content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(255, 238, 238);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Grafik */
+.grafik {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Font */
+.card-title, #num-positif, #num-sembuh, #num-meninggal, #num-dirawat {
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-style: italic;
+}
+
+.pp {
+    border: 5px solid #000000;
+    background-color:  rgb(255, 239, 202);
+    width: 250px;
+    height: 250px;
+}
