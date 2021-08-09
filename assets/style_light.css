@@ -1,12 +1,10 @@
+/* Universal */
 body {
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, p {
-    color:black;
-}
-
+/* Cards */
 .card-red, .card-red.p {
     background-color: #f44336;
 }
@@ -30,6 +28,7 @@ h1, p {
 .card {
     max-width: 50vh;
 }
+
 /* Content */
 .content {
     padding-top: 50px;
@@ -49,7 +48,7 @@ h1, p {
     padding-bottom: 50px;
 }
 
-/* Font */
+/* Font and Text */
 .card-title, #num-positif, #num-sembuh, #num-meninggal, #num-dirawat {
     font-weight: 900;
     color: #FFFFFF;
@@ -65,4 +64,8 @@ h1, p {
     background-color:  rgb(255, 239, 202);
     width: 250px;
     height: 250px;
+}
+
+h1, p {
+    color:black;
 }
